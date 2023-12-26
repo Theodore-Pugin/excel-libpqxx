@@ -1,0 +1,16 @@
+C:/A_REPO/excel-libpqxx/libpqxx/lib/cmake/libpqxx/libpqxx-config.cmake
+C:/A_REPO/excel-libpqxx/libpqxx/lib/cmake/libpqxx/libpqxx-config-version.cmake
+C:/A_REPO/excel-libpqxx/libpqxx/lib/cmake/libpqxx/libpqxx-targets.cmake
+C:/A_REPO/excel-libpqxx/libpqxx/lib/cmake/libpqxx/libpqxx-targets-debug.cmake
+C:/A_REPO/excel-libpqxx/libpqxx/lib/pqxx.lib
+C:/A_REPO/excel-libpqxx/libpqxx/lib/pkgconfig/libpqxx.pc
+C:/A_REPO/excel-libpqxx/libpqxx/include/pqxx/config-public-compiler.h
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/accessing-results.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/datatypes.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/escaping.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/getting-started.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/mainpage.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/performance.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/prepared-statement.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/streams.md
+C:/A_REPO/excel-libpqxx/libpqxx/share/doc/libpqxx/thread-safety.md

@@ -1,0 +1,770 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19041 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.3.1+2badb37d1 for .NET Framework
+      Build started 12/23/2023 11:32:12 AM.
+      Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:04.49
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/A_REPO/excel-libpqxx/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-byns4z"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-byns4z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-byns4z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bf888.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:19 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-byns4z\\cmTC_bf888.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bf888.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-byns4z\\Debug\\".
+          Creating directory "cmTC_bf888.dir\\Debug\\cmTC_bf888.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bf888.dir\\Debug\\cmTC_bf888.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf888.dir\\Debug\\\\" /Fd"cmTC_bf888.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf888.dir\\Debug\\\\" /Fd"cmTC_bf888.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-byns4z\\Debug\\cmTC_bf888.exe" /INCREMENTAL /ILK:"cmTC_bf888.dir\\Debug\\cmTC_bf888.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-byns4z/Debug/cmTC_bf888.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-byns4z/Debug/cmTC_bf888.lib" /MACHINE:X64  /machine:x64 cmTC_bf888.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bf888.vcxproj -> C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-byns4z\\Debug\\cmTC_bf888.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bf888.dir\\Debug\\cmTC_bf888.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bf888.dir\\Debug\\cmTC_bf888.tlog\\cmTC_bf888.lastbuildstate".
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-byns4z\\cmTC_bf888.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/config.cmake:33 (check_function_exists)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-xuj3pg"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-xuj3pg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-xuj3pg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_09b12.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:31 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_09b12.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\Debug\\".
+          Creating directory "cmTC_09b12.dir\\Debug\\cmTC_09b12.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_09b12.dir\\Debug\\cmTC_09b12.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_09b12.dir\\Debug\\\\" /Fd"cmTC_09b12.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          CheckFunctionExists.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_09b12.dir\\Debug\\\\" /Fd"cmTC_09b12.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\CheckFunctionExists.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\Debug\\cmTC_09b12.exe" /INCREMENTAL /ILK:"cmTC_09b12.dir\\Debug\\cmTC_09b12.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-xuj3pg/Debug/cmTC_09b12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-xuj3pg/Debug/cmTC_09b12.lib" /MACHINE:X64  /machine:x64 cmTC_09b12.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\Debug\\cmTC_09b12.exe : fatal error LNK1120: 1 unresolved externals [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\Debug\\cmTC_09b12.exe : fatal error LNK1120: 1 unresolved externals [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuj3pg\\cmTC_09b12.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:70 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/config.cmake:36 (check_symbol_exists)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for PQencryptPasswordConn"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-75b0m1"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-75b0m1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PQENCRYPTPASSWORDCONN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-75b0m1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a545f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:32 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\cmTC_a545f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a545f.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\Debug\\".
+          Creating directory "cmTC_a545f.dir\\Debug\\cmTC_a545f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a545f.dir\\Debug\\cmTC_a545f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a545f.dir\\Debug\\\\" /Fd"cmTC_a545f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\CheckSymbolExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          CheckSymbolExists.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a545f.dir\\Debug\\\\" /Fd"cmTC_a545f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\CheckSymbolExists.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\Debug\\cmTC_a545f.exe" /INCREMENTAL /ILK:"cmTC_a545f.dir\\Debug\\cmTC_a545f.ilk" /NOLOGO pq.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-75b0m1/Debug/cmTC_a545f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeScratch/TryCompile-75b0m1/Debug/cmTC_a545f.lib" /MACHINE:X64  /machine:x64 cmTC_a545f.dir\\Debug\\CheckSymbolExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pq.lib' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\cmTC_a545f.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\cmTC_a545f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\cmTC_a545f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pq.lib' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75b0m1\\cmTC_a545f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.85
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:53 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5a193.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:33 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5a193.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_5a193.dir\\Debug\\cmTC_5a193.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5a193.dir\\Debug\\cmTC_5a193.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5a193.dir\\Debug\\\\" /Fd"cmTC_5a193.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          gcc_pure.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5a193.dir\\Debug\\\\" /Fd"cmTC_5a193.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx"
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx(2,20): error C2065: 'pure': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx(2,27): error C2146: syntax error: missing ';' before identifier 'f' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx(3,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx(2,20): error C2065: 'pure': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx(2,27): error C2146: syntax error: missing ';' before identifier 'f' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_pure.cxx(3,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_5a193.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:57 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9aab8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:34 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9aab8.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_9aab8.dir\\Debug\\cmTC_9aab8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9aab8.dir\\Debug\\cmTC_9aab8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9aab8.dir\\Debug\\\\" /Fd"cmTC_9aab8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          gcc_visibility.cxx
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,33): error C2143: syntax error: missing ')' before '(' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,23): error C2079: 'visibility' uses undefined struct '__attribute__' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,42): error C2440: 'initializing': cannot convert from 'const char [7]' to 'int' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,33): message : There is no context in which this conversion is possible [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,43): error C2059: syntax error: ')' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,44): error C2059: syntax error: ')' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,46): error C2146: syntax error: missing ';' before identifier 'D' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(3,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(4,3): error C2064: term does not evaluate to a function taking 0 arguments [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(5,3): error C2062: type 'int' unexpected [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(5,11): error C2143: syntax error: missing ';' before '{' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(5,11): error C2447: '{': missing function header (old-style formal list?) [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(6,1): error C2059: syntax error: '}' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(6,1): error C2143: syntax error: missing ';' before '}' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(10,5): error C2146: syntax error: missing ';' before identifier 'd' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(10,5): error C2065: 'd': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(11,10): error C2065: 'd': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9aab8.dir\\Debug\\\\" /Fd"cmTC_9aab8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx"
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,33): error C2143: syntax error: missing ')' before '(' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,23): error C2079: 'visibility' uses undefined struct '__attribute__' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,42): error C2440: 'initializing': cannot convert from 'const char [7]' to 'int' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,43): error C2059: syntax error: ')' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,44): error C2059: syntax error: ')' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(2,46): error C2146: syntax error: missing ';' before identifier 'D' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(3,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(4,3): error C2064: term does not evaluate to a function taking 0 arguments [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(5,3): error C2062: type 'int' unexpected [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(5,11): error C2143: syntax error: missing ';' before '{' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(5,11): error C2447: '{': missing function header (old-style formal list?) [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(6,1): error C2059: syntax error: '}' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(6,1): error C2143: syntax error: missing ';' before '}' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(10,5): error C2146: syntax error: missing ';' before identifier 'd' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(10,5): error C2065: 'd': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\gcc_visibility.cxx(11,10): error C2065: 'd': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_9aab8.vcxproj]
+        
+            0 Warning(s)
+            16 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:61 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90abe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:35 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_90abe.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_90abe.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_90abe.dir\\Debug\\cmTC_90abe.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_90abe.dir\\Debug\\cmTC_90abe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_90abe.dir\\Debug\\\\" /Fd"cmTC_90abe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\cxa_demangle.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          cxa_demangle.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_90abe.dir\\Debug\\\\" /Fd"cmTC_90abe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\cxa_demangle.cxx"
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\cxa_demangle.cxx(7,10): fatal  error C1083: Cannot open include file: 'cxxabi.h': No such file or directory [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_90abe.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_90abe.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_90abe.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\cxa_demangle.cxx(7,10): fatal  error C1083: Cannot open include file: 'cxxabi.h': No such file or directory [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_90abe.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.82
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:65 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRNLEN_S"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be07a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:36 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_be07a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_be07a.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_be07a.dir\\Debug\\cmTC_be07a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_be07a.dir\\Debug\\cmTC_be07a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_be07a.dir\\Debug\\\\" /Fd"cmTC_be07a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\strnlen_s.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          strnlen_s.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_be07a.dir\\Debug\\\\" /Fd"cmTC_be07a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\strnlen_s.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_be07a.exe" /INCREMENTAL /ILK:"cmTC_be07a.dir\\Debug\\cmTC_be07a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_be07a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_be07a.lib" /MACHINE:X64  /machine:x64 cmTC_be07a.dir\\Debug\\strnlen_s.obj
+          cmTC_be07a.vcxproj -> C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_be07a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_be07a.dir\\Debug\\cmTC_be07a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_be07a.dir\\Debug\\cmTC_be07a.tlog\\cmTC_be07a.lastbuildstate".
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_be07a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:69 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRNLEN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_14cfb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:37 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_14cfb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_14cfb.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_14cfb.dir\\Debug\\cmTC_14cfb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_14cfb.dir\\Debug\\cmTC_14cfb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_14cfb.dir\\Debug\\\\" /Fd"cmTC_14cfb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\strnlen.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          strnlen.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_14cfb.dir\\Debug\\\\" /Fd"cmTC_14cfb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\strnlen.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_14cfb.exe" /INCREMENTAL /ILK:"cmTC_14cfb.dir\\Debug\\cmTC_14cfb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_14cfb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_14cfb.lib" /MACHINE:X64  /machine:x64 cmTC_14cfb.dir\\Debug\\strnlen.obj
+          cmTC_14cfb.vcxproj -> C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_14cfb.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_14cfb.dir\\Debug\\cmTC_14cfb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_14cfb.dir\\Debug\\cmTC_14cfb.tlog\\cmTC_14cfb.lastbuildstate".
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_14cfb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:73 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f5694.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:38 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f5694.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_f5694.dir\\Debug\\cmTC_f5694.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f5694.dir\\Debug\\cmTC_f5694.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f5694.dir\\Debug\\\\" /Fd"cmTC_f5694.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          charconv_float.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f5694.dir\\Debug\\\\" /Fd"cmTC_f5694.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx"
+          The contents of <charconv> are available only with C++17 or later.
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(8,18): error C2039: 'to_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(8,26): error C3861: 'to_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(9,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(9,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(12,18): error C2039: 'from_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(12,28): error C3861: 'from_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(13,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(13,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(15,17): error C2146: syntax error: missing ')' before identifier 'and' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(8,18): error C2039: 'to_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(8,26): error C3861: 'to_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(9,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(9,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(12,18): error C2039: 'from_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(12,28): error C3861: 'from_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(13,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(13,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_float.cxx(15,17): error C2146: syntax error: missing ')' before identifier 'and' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_f5694.vcxproj]
+        
+            0 Warning(s)
+            9 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:77 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b959a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:39 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b959a.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_b959a.dir\\Debug\\cmTC_b959a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b959a.dir\\Debug\\cmTC_b959a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b959a.dir\\Debug\\\\" /Fd"cmTC_b959a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          charconv_int.cxx
+          The contents of <charconv> are available only with C++17 or later.
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b959a.dir\\Debug\\\\" /Fd"cmTC_b959a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx"
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(8,18): error C2039: 'to_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(8,26): error C3861: 'to_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(9,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(9,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(12,18): error C2039: 'from_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(12,28): error C3861: 'from_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(13,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\iterator(21): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(13,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(8,18): error C2039: 'to_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(8,26): error C3861: 'to_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(9,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(9,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(12,18): error C2039: 'from_chars': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(12,28): error C3861: 'from_chars': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(13,21): error C2039: 'errc': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\charconv_int.cxx(13,6): error C2065: 'errc': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_b959a.vcxproj]
+        
+            0 Warning(s)
+            8 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:81 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_VARIANT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6deb1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:40 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6deb1.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_6deb1.dir\\Debug\\cmTC_6deb1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6deb1.dir\\Debug\\cmTC_6deb1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6deb1.dir\\Debug\\\\" /Fd"cmTC_6deb1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          variant.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6deb1.dir\\Debug\\\\" /Fd"cmTC_6deb1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx"
+          The contents of <variant> are available only with C++17 or later.
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,8): error C2039: 'variant': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\string(24): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,15): error C2065: 'variant': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,16): error C2062: type 'int' unexpected [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,35): error C2143: syntax error: missing ';' before '{' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,43): error C2143: syntax error: missing ';' before '}' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(9,8): error C2039: 'visit': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\string(24): message : see declaration of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(9,53): error C2065: 'v': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(9,13): error C3861: 'visit': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,8): error C2039: 'variant': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,15): error C2065: 'variant': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,16): error C2062: type 'int' unexpected [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,35): error C2143: syntax error: missing ';' before '{' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(8,43): error C2143: syntax error: missing ';' before '}' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(9,8): error C2039: 'visit': is not a member of 'std' [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(9,53): error C2065: 'v': undeclared identifier [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+          C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\variant.cxx(9,13): error C3861: 'visit': identifier not found [C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_6deb1.vcxproj]
+        
+            0 Warning(s)
+            8 Error(s)
+        
+        Time Elapsed 00:00:00.95
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/config.cmake:85 (try_compile)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+      binary: "C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/A_REPO/excel-libpqxx/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d4f68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        Build started 12/23/2023 11:32:41 AM.
+        Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_d4f68.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d4f68.dir\\Debug\\".
+          Creating directory "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_d4f68.dir\\Debug\\cmTC_d4f68.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d4f68.dir\\Debug\\cmTC_d4f68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d4f68.dir\\Debug\\\\" /Fd"cmTC_d4f68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\thread_local.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+          thread_local.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d4f68.dir\\Debug\\\\" /Fd"cmTC_d4f68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\A_REPO\\excel-libpqxx\\libpqxx\\config-tests\\thread_local.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_d4f68.exe" /INCREMENTAL /ILK:"cmTC_d4f68.dir\\Debug\\cmTC_d4f68.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_d4f68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/A_REPO/excel-libpqxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_d4f68.lib" /MACHINE:X64  /machine:x64 cmTC_d4f68.dir\\Debug\\thread_local.obj
+          cmTC_d4f68.vcxproj -> C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_d4f68.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d4f68.dir\\Debug\\cmTC_d4f68.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d4f68.dir\\Debug\\cmTC_d4f68.tlog\\cmTC_d4f68.lastbuildstate".
+        Done Building Project "C:\\A_REPO\\excel-libpqxx\\build\\CMakeFiles\\CMakeTmp\\cmTC_d4f68.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.77
+        
+      exitCode: 0
+...

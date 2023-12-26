@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\array.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\binarystring.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\connection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\encodings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\errorhandler.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\except.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\field.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\largeobject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\notification.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\pipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\result.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\robusttransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\row.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\sql_cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\statement_parameters.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\strconv.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\stream_from.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\stream_to.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\subtransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\transaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\transaction_base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\util.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_REPO\excel-libpqxx\libpqxx\src\version.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\A_REPO\excel-libpqxx\libpqxx\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A85A484C-E0C3-3B8E-819E-0C9DCEFFF62D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
